@@ -1,0 +1,42 @@
+\documentclass[aps,pra,twocolumn,superscriptaddress,nofootinbib,floatfix,longbibliography,10pt]{revtex4-2}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{dsfont}
+\usepackage[bookmarksnumbered=true,hypertexnames=false,colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue,anchorcolor=blue]{hyperref}
+\usepackage{braket}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+\begin{document}
+
+\title{Title goes here}
+
+\author{Name Surname}
+\affiliation{Départment de physique, Université de Sherbrooke, Sherbrooke, Québec, J1K 2R1, Canada}
+
+\date{\today}
+
+\begin{abstract}
+	Here goes the abstract~\cite{trust}.
+\end{abstract}
+
+\maketitle
+
+\input{sections/introduction}
+
+\input{sections/theory}
+
+\input{sections/methodology}
+
+\input{sections/results}
+
+\input{sections/discussion}
+
+\input{sections/conclusion}
+
+\bibliography{references}
+
+\end{document}
